@@ -16,15 +16,15 @@ public class Book {
         this.year_of_the_publication = bookBuilder.year_of_the_publication;
     }
 
-    String getTitle() {
+    public String getTitle() {
         return title;
     }
 
-    String getAuthor() {
+    public String getAuthor() {
         return author;
     }
 
-    int getYear_of_the_publication() {
+    public int getYear_of_the_publication() {
         return year_of_the_publication;
     }
 
